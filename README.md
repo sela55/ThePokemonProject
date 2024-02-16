@@ -28,4 +28,5 @@ The conditional statement is used to connect to the API only in the first iterat
 
 
 ## Additional Information
-The tests use Pytest and Requests library.
+The test suite includes three main test cases.
+The code uses a class (TestPokemonApi) with a class-level setup method to reduce the number of API connections and store information for mutual use between tests.
