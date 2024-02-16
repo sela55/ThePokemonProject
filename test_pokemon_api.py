@@ -30,8 +30,7 @@ class TestPokemonApi:
             pokemon_set_structure.add(result["name"])
         assert len(pokemon_set_structure) == 20
 
-    # In both three tests below I used DDT in order to assert
-
+    # In both two tests below (q2 and q3) I used DDT in order to assert
     @pytest.mark.parametrize("name, expected", [("charmander", True), ("bulbasaur", False)])
     def test_q2(self, name, expected):
         assert (name in self.fire_pokemons.keys()) == expected
