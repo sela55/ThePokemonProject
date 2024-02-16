@@ -3,7 +3,6 @@
 ## Tests:
 
 ### Question 1
-
 Test the number of unique Pokemon types returned by the API using a Set data structure.
 
 ### Question2 
