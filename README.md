@@ -1,5 +1,19 @@
 # Pokemon API Test Suite
 
+## Setup
+
+* .Install Python if not already installed.
+* .Install required dependencies using the following command:
+
+    ```bash
+    pip install pytest requests
+    ```
+* .Run the tests:
+
+    ```bash
+    pytest -v test_pokemon_api.py
+    ```
+
 ## Tests:
 
 ### Question 1
